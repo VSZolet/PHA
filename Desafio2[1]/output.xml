@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230808 08:53:19.632" rpa="false" schemaversion="4">
+<suite id="s1" name="Desafio2.1" source="f:\Download\Projetos\PHA\desafio2[1]\desafio2.1.robot">
+<test id="s1-t1" name="Apresenta o cliente, elemento por elemento do dicionario" line="8">
+<kw name="Seleciona">
+<kw name="Log To Console" library="BuiltIn">
+<arg>*</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.649"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>____________________________________</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.649"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O Cliente selecionado foi:</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.649"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.649"/>
+</kw>
+<kw name="Mostra nome completo">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome: ${CLIENTE.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.654"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.654"/>
+</kw>
+<kw name="Mostra idade">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Idade: ${CLIENTE.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.654" endtime="20230808 08:53:19.655"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.654" endtime="20230808 08:53:19.655"/>
+</kw>
+<kw name="Mostra endereço">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Endereço: ${CLIENTE.rua} nº${CLIENTE.numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.656" endtime="20230808 08:53:19.657"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>CEP: ${CLIENTE.cep}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.657" endtime="20230808 08:53:19.658"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cidade: ${CLIENTE.cidade} / ${CLIENTE.estado}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.658" endtime="20230808 08:53:19.658"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.655" endtime="20230808 08:53:19.659"/>
+</kw>
+<kw name="Finaliza">
+<kw name="Log To Console" library="BuiltIn">
+<arg>____________________________________</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.659" endtime="20230808 08:53:19.659"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.659" endtime="20230808 08:53:19.659"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.649" endtime="20230808 08:53:19.660"/>
+</test>
+<test id="s1-t2" name="Apresenta o cliente, diretamente pelo dicionario" line="14">
+<kw name="Seleciona">
+<kw name="Log To Console" library="BuiltIn">
+<arg>*</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.661" endtime="20230808 08:53:19.661"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>____________________________________</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.661" endtime="20230808 08:53:19.662"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O Cliente selecionado foi:</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.662" endtime="20230808 08:53:19.662"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.661" endtime="20230808 08:53:19.662"/>
+</kw>
+<kw name="Dicionario extenso">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${CLIENTE}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.663" endtime="20230808 08:53:19.663"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.662" endtime="20230808 08:53:19.663"/>
+</kw>
+<kw name="Finaliza">
+<kw name="Log To Console" library="BuiltIn">
+<arg>____________________________________</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:19.664" endtime="20230808 08:53:19.664"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.663" endtime="20230808 08:53:19.664"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:19.660" endtime="20230808 08:53:19.664"/>
+</test>
+<doc>Desafio 1 da Segunda Semana da Prime Hero Academy, para apresentar no console um dicionario.</doc>
+<status status="PASS" starttime="20230808 08:53:19.636" endtime="20230808 08:53:19.665"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Desafio2.1">Desafio2.1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

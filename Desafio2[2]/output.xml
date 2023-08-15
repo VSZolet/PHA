@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230808 08:53:39.980" rpa="false" schemaversion="4">
+<suite id="s1" name="Desafio2.2" source="f:\Download\Projetos\PHA\desafio2[2]\desafio2.2.robot">
+<test id="s1-t1" name="Descobrir ano1" line="27">
+<kw name="Descobrir nascimento1 22" sourcename="Descobrir nascimento1 ${IDADE1}">
+<kw name="Evaluate" library="BuiltIn">
+<var>${ANO1}</var>
+<arg>2023 - ${IDADE1}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230808 08:53:40.006" level="INFO">${ANO1} = 2001</msg>
+<status status="PASS" starttime="20230808 08:53:40.005" endtime="20230808 08:53:40.007"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>*</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:40.007" endtime="20230808 08:53:40.008"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O usuário nasceu em ${ANO1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:40.008" endtime="20230808 08:53:40.008"/>
+</kw>
+<if>
+<branch type="IF" condition="${ANO1} &lt;= 2000">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O usuário nasceu no século passado!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 08:53:40.009" endtime="20230808 08:53:40.009"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 08:53:40.008" endtime="20230808 08:53:40.009"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O usuário nasceu neste século!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:40.009" endtime="20230808 08:53:40.009"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:40.009" endtime="20230808 08:53:40.009"/>
+</branch>
+<status status="PASS" starttime="20230808 08:53:40.008" endtime="20230808 08:53:40.010"/>
+</if>
+<status status="PASS" starttime="20230808 08:53:40.005" endtime="20230808 08:53:40.010"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:40.004" endtime="20230808 08:53:40.010"/>
+</test>
+<test id="s1-t2" name="Descobrir ano2" line="29">
+<kw name="Descobrir nascimento2 23" sourcename="Descobrir nascimento2 ${IDADE2}">
+<kw name="Evaluate" library="BuiltIn">
+<var>${ANO2}</var>
+<arg>2023 - ${IDADE2}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230808 08:53:40.012" level="INFO">${ANO2} = 2000</msg>
+<status status="PASS" starttime="20230808 08:53:40.011" endtime="20230808 08:53:40.012"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>*</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:40.012" endtime="20230808 08:53:40.012"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O usuário nasceu em ${ANO2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:40.012" endtime="20230808 08:53:40.013"/>
+</kw>
+<if>
+<branch type="IF" condition="${ANO2} &lt;= 2000">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Ou seja, usuário nasceu no século passado!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 08:53:40.013" endtime="20230808 08:53:40.013"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:40.013" endtime="20230808 08:53:40.013"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O usuário é nascido neste século!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 08:53:40.014" endtime="20230808 08:53:40.014"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 08:53:40.014" endtime="20230808 08:53:40.014"/>
+</branch>
+<status status="PASS" starttime="20230808 08:53:40.013" endtime="20230808 08:53:40.014"/>
+</if>
+<status status="PASS" starttime="20230808 08:53:40.011" endtime="20230808 08:53:40.014"/>
+</kw>
+<status status="PASS" starttime="20230808 08:53:40.011" endtime="20230808 08:53:40.014"/>
+</test>
+<doc>Desafio 2 da Segunda Semana da Prime Hero Academy, criando uma keyword com retorno + IF simples</doc>
+<status status="PASS" starttime="20230808 08:53:39.985" endtime="20230808 08:53:40.015"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Desafio2.2">Desafio2.2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

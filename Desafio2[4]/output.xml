@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230808 10:29:04.022" rpa="false" schemaversion="4">
+<suite id="s1" name="Desafio2.4" source="f:\Download\Projetos\PHA\desafio2[4]\desafio2.4.robot">
+<test id="s1-t1" name="Lista pares de 0 a 10" line="8">
+<kw name="Lista Pares">
+<kw name="Log To Console" library="BuiltIn">
+<arg>*</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.041" endtime="20230808 10:29:04.042"/>
+</kw>
+<for flavor="IN RANGE">
+<var>${element}</var>
+<value>0</value>
+<value>11</value>
+<iter>
+<var name="${element}">0</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.043" endtime="20230808 10:29:04.043"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.042" endtime="20230808 10:29:04.043"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.043" endtime="20230808 10:29:04.044"/>
+</continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.043" endtime="20230808 10:29:04.044"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.042" endtime="20230808 10:29:04.044"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.042" endtime="20230808 10:29:04.044"/>
+</iter>
+<iter>
+<var name="${element}">1</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 10:29:04.044" endtime="20230808 10:29:04.044"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 10:29:04.044" endtime="20230808 10:29:04.044"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="PASS" starttime="20230808 10:29:04.045" endtime="20230808 10:29:04.045"/>
+</continue>
+<status status="PASS" starttime="20230808 10:29:04.045" endtime="20230808 10:29:04.045"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.044" endtime="20230808 10:29:04.045"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.044" endtime="20230808 10:29:04.045"/>
+</iter>
+<iter>
+<var name="${element}">2</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.045" endtime="20230808 10:29:04.046"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.045" endtime="20230808 10:29:04.046"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.046" endtime="20230808 10:29:04.046"/>
+</continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.046" endtime="20230808 10:29:04.046"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.045" endtime="20230808 10:29:04.046"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.045" endtime="20230808 10:29:04.046"/>
+</iter>
+<iter>
+<var name="${element}">3</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.047"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 10:29:04.046" endtime="20230808 10:29:04.047"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="PASS" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.047"/>
+</continue>
+<status status="PASS" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.047"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.046" endtime="20230808 10:29:04.047"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.046" endtime="20230808 10:29:04.047"/>
+</iter>
+<iter>
+<var name="${element}">4</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.048"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.048"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.048" endtime="20230808 10:29:04.048"/>
+</continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.048" endtime="20230808 10:29:04.048"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.048"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.047" endtime="20230808 10:29:04.048"/>
+</iter>
+<iter>
+<var name="${element}">5</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.049"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.049"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="PASS" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.049"/>
+</continue>
+<status status="PASS" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.049"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.048" endtime="20230808 10:29:04.049"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.048" endtime="20230808 10:29:04.049"/>
+</iter>
+<iter>
+<var name="${element}">6</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.050" endtime="20230808 10:29:04.050"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.050"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.050" endtime="20230808 10:29:04.050"/>
+</continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.050" endtime="20230808 10:29:04.050"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.050"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.049" endtime="20230808 10:29:04.050"/>
+</iter>
+<iter>
+<var name="${element}">7</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.051"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.051"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="PASS" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.051"/>
+</continue>
+<status status="PASS" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.051"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.051"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.050" endtime="20230808 10:29:04.051"/>
+</iter>
+<iter>
+<var name="${element}">8</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.052" endtime="20230808 10:29:04.052"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.052"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.052" endtime="20230808 10:29:04.052"/>
+</continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.052" endtime="20230808 10:29:04.052"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.053"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.051" endtime="20230808 10:29:04.053"/>
+</iter>
+<iter>
+<var name="${element}">9</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230808 10:29:04.053" endtime="20230808 10:29:04.053"/>
+</kw>
+<status status="NOT RUN" starttime="20230808 10:29:04.053" endtime="20230808 10:29:04.053"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="PASS" starttime="20230808 10:29:04.053" endtime="20230808 10:29:04.053"/>
+</continue>
+<status status="PASS" starttime="20230808 10:29:04.053" endtime="20230808 10:29:04.053"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.053" endtime="20230808 10:29:04.053"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.053" endtime="20230808 10:29:04.053"/>
+</iter>
+<iter>
+<var name="${element}">10</var>
+<if>
+<branch type="IF" condition="${element} % 2 == 0">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 10:29:04.054" endtime="20230808 10:29:04.054"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.054" endtime="20230808 10:29:04.054"/>
+</branch>
+<branch type="ELSE">
+<continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.054" endtime="20230808 10:29:04.054"/>
+</continue>
+<status status="NOT RUN" starttime="20230808 10:29:04.054" endtime="20230808 10:29:04.055"/>
+</branch>
+<status status="PASS" starttime="20230808 10:29:04.054" endtime="20230808 10:29:04.055"/>
+</if>
+<status status="PASS" starttime="20230808 10:29:04.054" endtime="20230808 10:29:04.055"/>
+</iter>
+<status status="PASS" starttime="20230808 10:29:04.042" endtime="20230808 10:29:04.055"/>
+</for>
+<status status="PASS" starttime="20230808 10:29:04.041" endtime="20230808 10:29:04.055"/>
+</kw>
+<status status="PASS" starttime="20230808 10:29:04.040" endtime="20230808 10:29:04.055"/>
+</test>
+<doc>Desafio 3 da Segunda Semana da Prime Hero Academy, usando For simples pra apresentar uma lista.</doc>
+<status status="PASS" starttime="20230808 10:29:04.026" endtime="20230808 10:29:04.056"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Desafio2.4">Desafio2.4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
